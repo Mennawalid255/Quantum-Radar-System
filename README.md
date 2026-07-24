@@ -10,7 +10,7 @@ A Java-based traffic violation detection system that uses the Strategy Design Pa
 
 ## Design Patterns
 
-Strategy Pattern
+1) Strategy Pattern
 
 The system uses the Strategy Pattern:
 
@@ -20,7 +20,7 @@ The system uses the Strategy Pattern:
 
 This allows adding new rules without changing existing code.
 
-Dependency Injection Pattern
+2) Dependency Injection Pattern
 
 Used in "QuantumRadar" because QuantumRadar does not create its dependencies. It receives them from outside.
 
@@ -30,6 +30,7 @@ Total amount: 400 EGP
 Violations:
 - Seatbelt not fastened : 100 EGP
 - speed of 94 exceeded max allowed 80 : 300 EGP
+
 
 Traffic fine for car TRK001
 Total amount: 500 EGP
